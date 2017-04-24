@@ -2,6 +2,8 @@
 
 基于 [PhotoView](https://github.com/chrisbanes/PhotoView) 兼容实现图片单指拖动下滑finish activity功能，高仿微信可拖拽返回功能。
 
+[![](https://jitpack.io/v/githubwing/DragPhotoView.svg)](https://github.com/HuangGangHust/DragPhotoView/raw/master/DragPhotoView-sample.apk)
+
 [下载示例APK体验](https://github.com/HuangGangHust/DragPhotoView/raw/master/DragPhotoView-sample.apk)
 
 
