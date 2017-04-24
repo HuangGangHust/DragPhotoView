@@ -6,7 +6,7 @@
 
 
 
-## 使用
+## 依赖
 
 1. 在项目的根目录的build.gradle文件中（注意：不是module的build.gradle文件）加入如下依赖：
 
@@ -44,6 +44,7 @@ PhotoView已有特性：
 
 
 
+
 ## 使用
 
 1. 使用ZoomRelativeLayout或ZoomLinearLayout（使用上等同于RelativeLayout或LinearLayout）作为拖动时进行缩放的父布局，使用DragPhotoView（使用上等同于ImageView）作为展示图片的控件
@@ -60,7 +61,7 @@ dragPhotoview.setOnViewTapListener(this);// 单击监听，视需要增加
 
 ## 更多
 
-若需要其他进行缩放的布局，只需继承对应的ViewGroup，其他代码等同ZoomRelativeLayout或ZoomLinearLayout即可。
+若需要其他进行缩放的布局，只需继承对应的布局，其他代码等同ZoomRelativeLayout或ZoomLinearLayout即可。
 
 
 
