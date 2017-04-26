@@ -26,7 +26,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    compile 'com.github.chrisbanes:PhotoView:2.0.0'
+    compile "com.github.chrisbanes:PhotoView:$rootProject.photoViewVersion"
     compile project(':dragphotoview-library')
     testCompile "junit:junit:$rootProject.ext.junitVersion"
 }

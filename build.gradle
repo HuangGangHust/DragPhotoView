@@ -6,14 +6,14 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+//        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 
 allprojects {
     repositories {
-        maven { url "https://jitpack.io" }
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 
@@ -33,4 +33,5 @@ ext {
     supportLibraryVersion = '24.2.1'
     junitVersion = '4.12'
     espressoVersion = '2.2.2'
+	photoViewVersion = '2.0.0'
 }
