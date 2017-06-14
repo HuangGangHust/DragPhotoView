@@ -26,7 +26,7 @@
 
    ```
    dependencies {
-       compile 'com.github.HuangGangHust:DragPhotoView:latest.release.here'
+       compile 'com.github.HuangGangHust:DragPhotoView:1.0.0'
    }
    ```
 
