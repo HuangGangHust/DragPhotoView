@@ -32,5 +32,5 @@ ext {
     supportLibraryVersion = '24.2.1'
     junitVersion = '4.12'
     espressoVersion = '2.2.2'
-	photoViewVersion = '2.0.0'
+	photoViewVersion = '1.2.6'
 }
